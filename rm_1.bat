@@ -1,0 +1,1 @@
+rm app/views/layouts/application.html.erb
