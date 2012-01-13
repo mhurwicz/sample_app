@@ -1,0 +1,100 @@
+2012-01-12T20:55:22+00:00 app[web.1]:   
+2012-01-12T20:55:22+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-12T20:55:22+00:00 app[web.1]: 
+2012-01-12T20:55:22+00:00 app[web.1]: 
+2012-01-12T20:55:22+00:00 app[web.1]: cache: [GET /assets/rails.png] miss
+2012-01-12T20:56:07+00:00 heroku[web.1]: Stopping process with SIGTERM
+2012-01-12T20:56:07+00:00 app[web.1]: >> Stopping ...
+2012-01-12T20:56:07+00:00 heroku[web.1]: Process exited
+2012-01-12T20:56:41+00:00 heroku[slugc]: Slug compilation started
+2012-01-12T20:57:00+00:00 heroku[api]: Deploy 14ff472 by mhurwicz@gmail.com
+2012-01-12T20:57:00+00:00 heroku[api]: Release v14 created by mhurwicz@gmail.com
+2012-01-12T20:57:00+00:00 heroku[web.1]: State changed from bouncing to created
+2012-01-12T20:57:00+00:00 heroku[web.1]: State changed from up to bouncing
+2012-01-12T20:57:00+00:00 heroku[web.1]: State changed from created to starting
+2012-01-12T20:57:01+00:00 heroku[slugc]: Slug compilation finished
+2012-01-12T20:57:03+00:00 heroku[web.1]: Stopping process with SIGTERM
+2012-01-12T20:57:03+00:00 app[web.1]: >> Stopping ...
+2012-01-12T20:57:03+00:00 heroku[web.1]: Process exited
+2012-01-12T20:57:03+00:00 heroku[web.1]: Starting process with command `thin -p 19991 -e production -R /home/heroku_rack/heroku.ru start`
+2012-01-12T20:57:07+00:00 heroku[web.1]: State changed from starting to up
+2012-01-12T20:57:07+00:00 app[web.1]: >> Thin web server (v1.2.6 codename Crazy Delicious)
+2012-01-12T20:57:07+00:00 app[web.1]: >> Listening on 0.0.0.0:19991, CTRL+C to stop
+2012-01-12T20:57:07+00:00 app[web.1]: >> Maximum connections set to 1024
+2012-01-12T20:57:21+00:00 app[web.1]: cache: [GET /] miss
+2012-01-12T20:57:21+00:00 heroku[router]: GET vivid-dawn-5285.heroku.com/ dyno=web.1 queue=0 wait=0ms service=15ms status=200 bytes=6059
+2012-01-12T20:57:21+00:00 app[web.1]: 
+2012-01-12T20:57:21+00:00 app[web.1]: 
+2012-01-12T20:57:21+00:00 app[web.1]: Started GET "/assets/rails.png" for 207.118.16.184 at 2012-01-12 12:57:21 -0800
+2012-01-12T20:57:22+00:00 app[web.1]: 
+2012-01-12T20:57:22+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-12T20:57:22+00:00 app[web.1]:   
+2012-01-12T20:57:22+00:00 app[web.1]: 
+2012-01-12T20:57:22+00:00 app[web.1]: cache: [GET /assets/rails.png] miss
+2012-01-12T20:57:22+00:00 app[web.1]: 
+2012-01-12T20:57:22+00:00 heroku[router]: GET vivid-dawn-5285.heroku.com/assets/rails.png dyno=web.1 queue=0 wait=0ms service=480ms status=500 bytes=728
+2012-01-12T20:57:50+00:00 app[web.1]: 
+2012-01-12T20:57:50+00:00 app[web.1]: 
+2012-01-12T20:57:50+00:00 app[web.1]: Started GET "/pages/home" for 207.118.16.184 at 2012-01-12 12:57:50 -0800
+2012-01-12T20:57:50+00:00 app[web.1]: 
+2012-01-12T20:57:50+00:00 app[web.1]:   
+2012-01-12T20:57:50+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-12T20:57:50+00:00 app[web.1]: 
+2012-01-12T20:57:50+00:00 app[web.1]: cache: [GET /pages/home] miss
+2012-01-12T20:57:50+00:00 app[web.1]: 
+2012-01-12T20:57:50+00:00 heroku[router]: GET vivid-dawn-5285.heroku.com/pages/home dyno=web.1 queue=0 wait=0ms service=2ms status=500 bytes=728
+2012-01-12T21:32:13+00:00 heroku[slugc]: Slug compilation started
+2012-01-12T21:32:28+00:00 heroku[web.1]: State changed from up to bouncing
+2012-01-12T21:32:28+00:00 heroku[web.1]: State changed from bouncing to created
+2012-01-12T21:32:28+00:00 heroku[web.1]: State changed from created to starting
+2012-01-12T21:32:29+00:00 heroku[slugc]: Slug compilation finished
+2012-01-12T21:32:28+00:00 heroku[api]: Deploy dff8517 by mhurwicz@gmail.com
+2012-01-12T21:32:31+00:00 heroku[web.1]: Stopping process with SIGTERM
+2012-01-12T21:32:31+00:00 app[web.1]: >> Stopping ...
+2012-01-12T21:32:32+00:00 heroku[web.1]: Starting process with command `thin -p 56548 -e production -R /home/heroku_rack/heroku.ru start`
+2012-01-12T21:32:32+00:00 heroku[web.1]: Process exited
+2012-01-12T21:32:36+00:00 app[web.1]: >> Maximum connections set to 1024
+2012-01-12T21:32:36+00:00 app[web.1]: >> Thin web server (v1.2.6 codename Crazy Delicious)
+2012-01-12T21:32:36+00:00 app[web.1]: >> Listening on 0.0.0.0:56548, CTRL+C to stop
+2012-01-12T21:33:57+00:00 app[web.1]: 
+2012-01-12T21:33:57+00:00 app[web.1]: Started GET "/assets/rails.png" for 207.118.16.184 at 2012-01-12 13:33:57 -0800
+2012-01-12T21:33:57+00:00 app[web.1]: 
+2012-01-12T21:33:58+00:00 app[web.1]: 
+2012-01-12T21:33:58+00:00 app[web.1]: 
+2012-01-12T21:33:58+00:00 app[web.1]: 
+2012-01-12T21:33:58+00:00 app[web.1]: cache: [GET /assets/rails.png] miss
+2012-01-12T21:33:58+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-12T21:33:58+00:00 app[web.1]:   
+2012-01-12T21:33:58+00:00 heroku[router]: GET vivid-dawn-5285.heroku.com/assets/rails.png dyno=web.1 queue=0 wait=0ms service=567ms status=500 bytes=728
+2012-01-12T21:34:02+00:00 app[web.1]: cache: [GET /] miss
+2012-01-12T21:34:02+00:00 heroku[router]: GET vivid-dawn-5285.heroku.com/ dyno=web.1 queue=0 wait=0ms service=13ms status=200 bytes=6072
+2012-01-12T21:34:02+00:00 heroku[router]: GET vivid-dawn-5285.heroku.com/assets/rails.png dyno=web.1 queue=0 wait=0ms service=9ms status=500 bytes=728
+2012-01-12T21:34:02+00:00 app[web.1]: 
+2012-01-12T21:34:02+00:00 app[web.1]: 
+2012-01-12T21:34:02+00:00 app[web.1]:   
+2012-01-12T21:34:02+00:00 app[web.1]: Started GET "/assets/rails.png" for 207.118.16.184 at 2012-01-12 13:34:02 -0800
+2012-01-12T21:34:02+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-12T21:34:02+00:00 app[web.1]: 
+2012-01-12T21:34:02+00:00 app[web.1]: 
+2012-01-12T21:34:02+00:00 app[web.1]: 
+2012-01-12T21:34:02+00:00 app[web.1]: cache: [GET /assets/rails.png] miss
+2012-01-12T21:34:20+00:00 app[web.1]: 
+2012-01-12T21:34:20+00:00 app[web.1]: 
+2012-01-12T21:34:20+00:00 app[web.1]: Started GET "/pages/about" for 207.118.16.184 at 2012-01-12 13:34:20 -0800
+2012-01-12T21:34:20+00:00 app[web.1]:   
+2012-01-12T21:34:20+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-12T21:34:20+00:00 app[web.1]: 
+2012-01-12T21:34:20+00:00 app[web.1]: 
+2012-01-12T21:34:20+00:00 app[web.1]: 
+2012-01-12T21:34:20+00:00 app[web.1]: cache: [GET /pages/about] miss
+2012-01-12T21:34:20+00:00 heroku[router]: GET vivid-dawn-5285.heroku.com/pages/about dyno=web.1 queue=0 wait=0ms service=7ms status=500 bytes=728
+2012-01-12T21:39:51+00:00 heroku[router]: GET vivid-dawn-5285.heroku.com/pages/about dyno=web.1 queue=0 wait=0ms service=9ms status=500 bytes=728
+2012-01-12T21:39:51+00:00 app[web.1]: Started GET "/pages/about" for 207.118.16.184 at 2012-01-12 13:39:51 -0800
+2012-01-12T21:39:51+00:00 app[web.1]: 
+2012-01-12T21:39:51+00:00 app[web.1]: 
+2012-01-12T21:39:51+00:00 app[web.1]: 
+2012-01-12T21:39:51+00:00 app[web.1]: 
+2012-01-12T21:39:51+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-12T21:39:51+00:00 app[web.1]: 
+2012-01-12T21:39:51+00:00 app[web.1]: cache: [GET /pages/about] miss
+2012-01-12T21:39:51+00:00 app[web.1]:   
