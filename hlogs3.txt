@@ -1,0 +1,102 @@
+2012-01-13T07:30:15+00:00 app[web.1]: cache: [GET /favicon.ico] miss
+2012-01-13T07:30:15+00:00 app[web.1]: Started GET "/assets/rails.png" for 207.118.16.184 at 2012-01-12 23:30:15 -0800
+2012-01-13T07:30:15+00:00 app[web.1]: 
+2012-01-13T07:30:15+00:00 app[web.1]: 
+2012-01-13T07:30:15+00:00 app[web.1]: cache: [GET /assets/rails.png] miss
+2012-01-13T07:30:15+00:00 app[web.1]: 
+2012-01-13T07:30:15+00:00 app[web.1]:   
+2012-01-13T07:30:15+00:00 app[web.1]: ActionController::RoutingError (No route matches [GET] "/assets/rails.png"):
+2012-01-13T07:30:15+00:00 heroku[router]: GET vivid-dawn-5285.heroku.com/assets/rails.png dyno=web.1 queue=0 wait=0ms service=7433ms status=404 bytes=728
+2012-01-13T07:30:24+00:00 app[web.1]: 
+2012-01-13T07:30:24+00:00 app[web.1]: Started GET "/pages/about" for 207.118.16.184 at 2012-01-12 23:30:24 -0800
+2012-01-13T07:30:24+00:00 app[web.1]: 
+2012-01-13T07:30:24+00:00 app[web.1]:   Processing by PagesController#about as HTML
+2012-01-13T07:30:24+00:00 app[web.1]: Rendered pages/about.html.erb within layouts/application (0.3ms)
+2012-01-13T07:30:24+00:00 app[web.1]: Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+2012-01-13T07:30:24+00:00 app[web.1]: cache: [GET /pages/about] miss
+2012-01-13T07:30:24+00:00 heroku[router]: GET vivid-dawn-5285.heroku.com/pages/about dyno=web.1 queue=0 wait=0ms service=7ms status=200 bytes=577
+2012-01-13T07:30:32+00:00 app[web.1]: Started GET "/pages/contact" for 207.118.16.184 at 2012-01-12 23:30:32 -0800
+2012-01-13T07:30:32+00:00 app[web.1]: 
+2012-01-13T07:30:32+00:00 app[web.1]: 
+2012-01-13T07:30:32+00:00 app[web.1]: Rendered pages/contact.html.erb within layouts/application (0.2ms)
+2012-01-13T07:30:32+00:00 app[web.1]: Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+2012-01-13T07:30:32+00:00 app[web.1]:   Processing by PagesController#contact as HTML
+2012-01-13T07:30:32+00:00 app[web.1]: cache: [GET /pages/contact] miss
+2012-01-13T07:30:32+00:00 heroku[router]: GET vivid-dawn-5285.heroku.com/pages/contact dyno=web.1 queue=0 wait=0ms service=11ms status=200 bytes=429
+2012-01-13T08:00:30+00:00 heroku[slugc]: Slug compilation started
+2012-01-13T08:00:55+00:00 heroku[api]: Deploy 0abaddf by mhurwicz@gmail.com
+2012-01-13T08:00:55+00:00 heroku[api]: Release v17 created by mhurwicz@gmail.com
+2012-01-13T08:00:56+00:00 heroku[web.1]: State changed from up to bouncing
+2012-01-13T08:00:56+00:00 heroku[web.1]: State changed from bouncing to created
+2012-01-13T08:00:56+00:00 heroku[web.1]: State changed from created to starting
+2012-01-13T08:00:56+00:00 heroku[slugc]: Slug compilation finished
+2012-01-13T08:00:59+00:00 heroku[web.1]: Stopping process with SIGTERM
+2012-01-13T08:00:59+00:00 app[web.1]: >> Stopping ...
+2012-01-13T08:00:59+00:00 heroku[web.1]: Process exited
+2012-01-13T08:00:58+00:00 heroku[web.1]: Starting process with command `thin -p 21819 -e production -R /home/heroku_rack/heroku.ru start`
+2012-01-13T08:01:03+00:00 app[web.1]: >> Thin web server (v1.2.6 codename Crazy Delicious)
+2012-01-13T08:01:03+00:00 app[web.1]: >> Maximum connections set 
+to 1024
+2012-01-13T08:01:03+00:00 app[web.1]: >> Listening on 0.0.0.0:21819, CTRL+C to stop
+2012-01-13T08:01:04+00:00 heroku[web.1]: State changed from starting to up
+2012-01-13T08:01:36+00:00 app[web.1]: 
+2012-01-13T08:01:36+00:00 app[web.1]: 
+2012-01-13T08:01:36+00:00 app[web.1]: Started GET "/pages/help" for 207.118.16.184 at 2012-01-13 00:01:36 -0800
+2012-01-13T08:01:37+00:00 app[web.1]:   
+2012-01-13T08:01:37+00:00 app[web.1]: 
+2012-01-13T08:01:37+00:00 app[web.1]: 
+2012-01-13T08:01:37+00:00 app[web.1]: cache: [GET /pages/help] miss
+2012-01-13T08:01:37+00:00 heroku[router]: GET vivid-dawn-5285.heroku.com/pages/help dyno=web.1 queue=0 wait=0ms service=1329ms status=500 bytes=728
+2012-01-13T08:01:37+00:00 app[web.1]: 
+2012-01-13T08:01:37+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-13T08:03:25+00:00 heroku[router]: GET vivid-dawn-5285.heroku.com/pages/home dyno=web.1 queue=0 wait=0ms service=34ms status=500 bytes=728
+2012-01-13T08:03:24+00:00 app[web.1]: 
+2012-01-13T08:03:24+00:00 app[web.1]: Started GET "/pages/home" for 207.118.16.184 at 2012-01-13 00:03:24 -0800
+2012-01-13T08:03:24+00:00 app[web.1]: 
+2012-01-13T08:03:24+00:00 app[web.1]: 
+2012-01-13T08:03:24+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-13T08:03:24+00:00 app[web.1]:   
+2012-01-13T08:03:24+00:00 app[web.1]: 
+2012-01-13T08:03:24+00:00 app[web.1]: cache: [GET /pages/home] miss
+2012-01-13T08:03:24+00:00 app[web.1]: 
+2012-01-13T08:03:34+00:00 heroku[router]: GET vivid-dawn-5285.heroku.com/pages/home dyno=web.1 queue=0 wait=0ms service=7ms status=500 bytes=728
+2012-01-13T08:03:34+00:00 app[web.1]: 
+2012-01-13T08:03:34+00:00 app[web.1]: 
+2012-01-13T08:03:34+00:00 app[web.1]: Started GET "/pages/home" for 207.118.16.184 at 2012-01-13 00:03:34 -0800
+2012-01-13T08:03:34+00:00 app[web.1]: 
+2012-01-13T08:03:34+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-13T08:03:34+00:00 app[web.1]: 
+2012-01-13T08:03:34+00:00 app[web.1]: 
+2012-01-13T08:03:34+00:00 app[web.1]:   
+2012-01-13T08:03:34+00:00 app[web.1]: cache: [GET /pages/home] miss
+2012-01-13T08:04:28+00:00 app[web.1]: 
+2012-01-13T08:04:28+00:00 app[web.1]: 
+2012-01-13T08:04:28+00:00 app[web.1]: Started GET "/pages/home" for 207.118.16.184 at 2012-01-13 00:04:28 -0800
+2012-01-13T08:04:28+00:00 heroku[router]: GET vivid-dawn-5285.heroku.com/pages/home dyno=web.1 queue=0 wait=0ms service=9ms status=500 bytes=728
+2012-01-13T08:04:28+00:00 app[web.1]: 
+2012-01-13T08:04:28+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-13T08:04:28+00:00 app[web.1]:   
+2012-01-13T08:04:28+00:00 app[web.1]: 
+2012-01-13T08:04:28+00:00 app[web.1]: 
+2012-01-13T08:04:28+00:00 app[web.1]: cache: [GET /pages/home] miss
+2012-01-13T08:04:41+00:00 heroku[router]: GET vivid-dawn-5285.heroku.com/pages/contact dyno=web.1 queue=0 wait=0ms service=5ms status=500 bytes=728
+2012-01-13T08:04:41+00:00 app[web.1]: 
+2012-01-13T08:04:41+00:00 app[web.1]:   
+2012-01-13T08:04:41+00:00 app[web.1]: cache: [GET /pages/contact] miss
+2012-01-13T08:04:41+00:00 app[web.1]: 
+2012-01-13T08:04:41+00:00 app[web.1]: 
+2012-01-13T08:04:41+00:00 app[web.1]: 
+2012-01-13T08:04:41+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-13T08:04:41+00:00 app[web.1]: Started GET "/pages/contact" for 207.118.16.184 at 2012-01-13 00:04:41 -0800
+2012-01-13T08:04:41+00:00 app[web.1]: 
+2012-01-13T08:06:49+00:00 app[web.1]: 
+2012-01-13T08:06:49+00:00 app[web.1]: 
+2012-01-13T08:06:49+00:00 app[web.1]: Started GET "/pages/contact" for 207.118.16.184 at
+ 2012-01-13 00:06:49 -0800
+2012-01-13T08:06:49+00:00 heroku[router]: GET vivid-dawn-5285.heroku.com/pages/contact dyno=web.1 queue=0 wait=0ms service=6ms status=500 bytes=728
+2012-01-13T08:06:49+00:00 app[web.1]: 
+2012-01-13T08:06:49+00:00 app[web.1]: ActiveRecord::ConnectionNotEstablished (ActiveRecord::ConnectionNotEstablished):
+2012-01-13T08:06:49+00:00 app[web.1]: 
+2012-01-13T08:06:49+00:00 app[web.1]: 
+2012-01-13T08:06:49+00:00 app[web.1]:   
+2012-01-13T08:06:49+00:00 app[web.1]: cache: [GET /pages/contact] miss
